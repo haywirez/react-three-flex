@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/npm/dt/@react-three/flex.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/@react-three/flex)
 [![Discord Shield](https://img.shields.io/discord/740090768164651008?style=flat&colorA=000000&colorB=000000&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/ZZjjNvJ)
 
-Placing content in THREE.js is hard. **`@react-three/flex`** brings the webs flexbox spec to [react-three-fiber](https://github.com/pmndrs/react-three-fiber).
+Placing content in THREE.js is hard. **`@react-three/flex`** brings the webs flexbox spec to [@react-three/fiber](https://github.com/pmndrs/@react-three/fiber).
 It is based on [Yoga](https://github.com/facebook/yoga), Facebook's open source layout engine for react-native.
 
 ```bash

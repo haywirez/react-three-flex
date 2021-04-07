@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useMemo, useCallback, PropsWithChildren, useRef } from 'react'
 import Yoga, { YogaNode } from 'yoga-layout-prebuilt'
 import { Vector3, Group, Box3 } from 'three'
-import { useFrame, useThree, ReactThreeFiber } from 'react-three-fiber'
+import { useFrame, useThree, ReactThreeFiber } from '@react-three/fiber'
 
 import { setYogaProperties, rmUndefFromObj, vectorFromObject, Axis, getDepthAxis, getFlex2DSize } from './util'
 import { boxContext, flexContext, SharedFlexContext, SharedBoxContext } from './context'
@@ -304,7 +304,7 @@ export function Flex({
     // Call the reflow event to update resulting size
     onReflow && onReflow((maxX - minX) / scaleFactor, (maxY - minY) / scaleFactor)
 
-    // Ask react-three-fiber to perform a render (invalidateFrameLoop)
+    // Ask @react-three/fiber to perform a render (invalidateFrameLoop)
     invalidate()
   }
 
